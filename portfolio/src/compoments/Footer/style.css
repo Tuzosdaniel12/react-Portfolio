@@ -1,0 +1,13 @@
+  .footer-mod{
+      position: fixed;
+      bottom: 0;
+      width: 100%; 
+  }
+
+.icon-color {
+  color: white;
+}
+
+.footer-mod a{
+  background-color: rgba(5, 5, 5,.8);
+}

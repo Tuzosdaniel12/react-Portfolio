@@ -1,6 +1,6 @@
-const CenterContainer = ({children}) =>{
+const CenterContainer = ({cName, children}) =>{
     return(
-        <div className="container">{children}</div>
+        <div className={`container ${cName}`}>{children}</div>
     )
 }
 

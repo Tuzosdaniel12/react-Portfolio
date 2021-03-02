@@ -5,7 +5,7 @@ import NavItems from "../navItems"
 const Nav = () =>{
     return(
         <nav className="navbar is-fixed-top has-background-black has-text-white custom-nav">
-            <CenterContainer>
+            <CenterContainer cName="has-background-black">
 
                 <Logo/>
                     
@@ -17,3 +17,4 @@ const Nav = () =>{
 }
 
 export default Nav
+
