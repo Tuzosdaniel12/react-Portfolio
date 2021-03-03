@@ -1,7 +1,7 @@
-const Icon = ({icon}) =>{
+const Icon = ({icon,text}) =>{
     console.log(icon)
     return(
-        <i className={`${icon}`} />
+        <i className={`${icon}`}>{text?text:""}</i>
     )
 }
 

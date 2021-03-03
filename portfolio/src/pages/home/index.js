@@ -1,7 +1,7 @@
 import Columns from "../../compoments/Columns";
 import Column from "../../compoments/Colunm";
 import Section from "../../compoments/Section";
-import './style.css'
+import './style.sass'
 
 function Home() {
   const columnsName = "home-div";
@@ -9,7 +9,7 @@ function Home() {
   
   return (
     <div>
-      <Section id="home">
+      <Section className="hero is-fullheight" id="home">
         <Columns columnsName={columnsName} >
             <Column  columnStyles={columnStyles}>
                 <h1 className="is-size-3-mobile is-size-1-tablet css-typing">

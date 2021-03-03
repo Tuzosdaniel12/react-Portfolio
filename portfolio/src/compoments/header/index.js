@@ -1,5 +1,5 @@
 import Nav from "../Nav";
-import "./style.css";
+import "./style.sass";
 
 function Header(){
     return(

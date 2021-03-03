@@ -1,6 +1,6 @@
 import FooterLinks from "../FooterLinks/index.js"
 import list from "./list.js"
-import "./style.css"
+import "./style.sass"
 
 const Footer = () =>{
     return(

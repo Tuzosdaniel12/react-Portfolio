@@ -1,7 +1,7 @@
-import "./style.css"
-const Section= ({children, id}) =>{
+
+const Section= ({children, id, cName}) =>{
     return(
-        <section className="hero is-fullheight" {...id}>
+        <section className={`hero is-fullheight${cName? cName:""}`} id={id}>
             {children}
         </section>
 
