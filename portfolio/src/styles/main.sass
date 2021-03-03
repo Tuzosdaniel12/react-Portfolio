@@ -8,9 +8,18 @@
 @import "~bulma/sass/helpers/_all"
 @import "~bulma/sass/layout/_all"
 
-body 
-	//background-color: black 
-	font-family: 'Fredoka One', cursive 
-	height: 100vh 
+html
+    scroll-behavior: smooth
+    background-color: $primary
+    width: 100%
 
+body
+  font-family: 'Fredoka One', cursive
+  background-color: $primary
+  width: 100vw  
 
+@media only screen and (min-width: 773px)
+  body
+    background-image: url("./images/seattle.jpg")
+    object-fit: inherit
+    background-position: center
