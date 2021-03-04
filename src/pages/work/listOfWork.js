@@ -14,11 +14,11 @@ const listOfWork = [
         alt:"Eat The Burger"
     },
     {
-        link:"https://github.com/Tuzosdaniel12/Employee-Tracker",
-        image:"./images/example.png",
-        gitrepo:"https://github.com/Tuzosdaniel12/Employee-Tracker",
-        description:"MySql, Node.js, Inquire",
-        alt:"Employee Tracker"
+        link:"https://employee-direct-finder.herokuapp.com/",
+        image:"https://github.com/Tuzosdaniel12/Emp-Directory/blob/main/images/empdirectory.png?raw=true",
+        gitrepo:"https://github.com/Tuzosdaniel12/Emp-Directory",
+        description:"React",
+        alt:"Employee Directory"
     },
     {
         link:"https://mfrisch87.github.io/MovieTrailerMatchUp/",
