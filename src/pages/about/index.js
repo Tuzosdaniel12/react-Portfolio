@@ -8,7 +8,8 @@ import "./style.sass"
 const About = () => {
      
     return(
-        <Section cName="pb-6 hide has-background-black" id="aboutme">
+            <Section cName={`pb-6 hide has-background-black ${window.location.pathname === "/About"? "fadeIn":"fadeOut"}`} id="aboutme">
+
             <Columns columnsName ="is-tablet about-me-div">
                 <Column columnStyles="">
                    <div className="is-flex is-justify-content-center">
@@ -31,6 +32,7 @@ const About = () => {
                 </Column>
             </Columns>
         </Section>
+
     )
 }
 

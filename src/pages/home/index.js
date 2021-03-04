@@ -9,7 +9,7 @@ function Home() {
   
   return (
     <div>
-      <Section className="hero is-fullheight" id="home">
+      <Section className={`hero is-fullheight ${window.location.pathname === "/"? "fadeIn":"fadeOut"}`} id="home">
         <Columns columnsName={columnsName} >
             <Column  columnStyles={columnStyles}>
                 <h1 className="is-size-3-mobile is-size-1-tablet css-typing">

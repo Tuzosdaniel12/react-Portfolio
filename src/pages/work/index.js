@@ -9,7 +9,7 @@ import "./style.sass"
 
 const Work = () =>{
     return(
-        <Section cName="hide pt-6 pb-6" id="work">
+        <Section cName={`hide pt-6 pb-6 ${window.location.pathname === "/Work"? "fadeIn":"fadeOut"}`} id="work">
             <CenterContainer cName="">
                 <Columns columnsName="is-mobile is-multiline firstblock">
                     
