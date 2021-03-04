@@ -8,7 +8,7 @@ import "./style.sass"
 const About = () => {
      
     return(
-            <Section cName={`pb-6 hide has-background-black ${window.location.pathname === "/About"? "fadeIn":"fadeOut"}`} id="aboutme">
+            <Section cName={`pb-6 ${window.location.pathname === "/About"? "fadeIn":"fadeOut"}`} id="aboutme">
 
             <Columns columnsName ="is-tablet about-me-div">
                 <Column columnStyles="">
