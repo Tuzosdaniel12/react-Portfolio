@@ -1,12 +1,13 @@
 import Burger from "../burger"
+import { Link } from "react-router-dom";
 
 function Logo( {toggleBurgerMenu}){
     return(
         <div className="navbar-brand">
 
-            <a className="navbar-item is-size-2 pt-3" href="/">
+            <Link className="navbar-item is-size-2 pt-3" to="/">
                 <img className="nav-img" id="icon-href" data-target="home-2" alt="logo" src="./images/logo.png" />
-            </a>
+            </Link>
 
         <Burger toggleBurgerMenu={toggleBurgerMenu}/>
 

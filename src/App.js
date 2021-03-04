@@ -11,9 +11,11 @@ function App() {
     <Router>
       <div> 
         <Header/>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/About" component={About} />
-          <Route exact path="/Work" component={Work} />    
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/About" component={About} />
+            <Route exact path="/Work" component={Work} />
+          </Switch>
         <Footer/>
       </div> 
     </Router>
