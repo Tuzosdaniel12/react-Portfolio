@@ -1,14 +1,23 @@
-function NavItems(){
+import { Link } from "react-router-dom";
+
+
+
+
+function NavItems({toggleBurgerMenu}){
+ 
     return(
         <div id="navMenu" className="navbar-menu has-background-black">
             <div className="navbar-end custom-nav-menu">
-                <a href="#home" data-target="home" className="navbar-item navbar-mod">Home</a>
-                <a href="#aboutme" data-target="about" className="navbar-item navbar-mod">About Me</a>
-                <a href="#examples" data-target="work-examples" className="navbar-item">Work</a>
-                <a href="./docs/DanielSoledadResume.pdf" className="navbar-item">Resume</a>
+                <Link to="/" data-target="home" className="navbar-item navbar-mod " onClick={toggleBurgerMenu}>Home</Link>
+                <Link to="/About" data-target="about" className="navbar-item navbar-mod" onClick={toggleBurgerMenu}>About Me</Link>
+                <Link to="/Work" data-target="work-examples" className="navbar-item" onClick={toggleBurgerMenu}>Work</Link>
+                <Link to="./docs/DanielSoledadResume.pdf" className="navbar-item" onClick={toggleBurgerMenu} >Resume</Link>
             </div>
         </div>
     )
 }
 
 export default NavItems
+
+
+

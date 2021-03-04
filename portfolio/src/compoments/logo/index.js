@@ -1,6 +1,6 @@
 import Burger from "../burger"
 
-function Logo(){
+function Logo( {toggleBurgerMenu}){
     return(
         <div className="navbar-brand">
 
@@ -8,7 +8,7 @@ function Logo(){
                 <img className="nav-img" id="icon-href" data-target="home-2" alt="logo" src="./images/logo.png" />
             </a>
 
-        <Burger/>
+        <Burger toggleBurgerMenu={toggleBurgerMenu}/>
 
         </div>    
     )
