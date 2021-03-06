@@ -8,8 +8,8 @@ const Footer = () =>{
             <div className="content has-text-centered ">
                 <p className="mb-0">
                     {
-                        list.map(l =>{
-                            return <FooterLinks {...l}/>
+                        list.map((l, index) =>{
+                            return <FooterLinks {...l} key={index}/>
                         })
                     }
                 </p>
