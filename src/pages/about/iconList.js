@@ -19,6 +19,10 @@ const listOfIcons = [
     },
     {
         icon:"fab fa-sass pr-1",
+    },
+    {
+        icon:"pr-1",
+        text:"express"
     }
 ]
 

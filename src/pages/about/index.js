@@ -26,7 +26,7 @@ const About = () => {
 
                     <div className="has-text-centered has-text-danger">
                         {
-                            iconList.map(({icon}) =><Icon icon={icon}/>)
+                            iconList.map(({icon, text}) =><Icon icon={icon} text={text}/>)
                         }
                     </div> 
 
