@@ -69,7 +69,7 @@ Your updated site should still have all of the content it previously had:
 
 ## Test
 
-[![image](https://github.com/Tuzosdaniel12/react-Portfolio/blob/main/public/images/port.png?raw=true)](https://daniel-soledad.herokuapp.com/)
+[![image](./client/public/images/port.png)](https://daniel-soledad.herokuapp.com/)
 
 ## Credits
 
