@@ -17,86 +17,55 @@
 .css-typing
   width: fit-content
   margin: auto
-
   p
     border-right: .15em solid red
     font-family: "Courier"
     white-space: nowrap
     overflow: hidden
     margin: 0 auto
-
+    
     &:nth-child(1)
       width: 100%
       opacity: 0
-      -webkit-animation: type3 5s steps(20, end), blink 0.5s step-end infinite alternate
       animation: type3 1s steps(20, end), blink 0.5s step-end infinite alternate
-      -webkit-animation-fill-mode: forwards
+      animation-delay: 0s
       animation-fill-mode: forwards
 
     &:nth-child(2)
       width: 100%
       opacity: 0
-      -webkit-animation: type3 5s steps(20, end), blink 0.5s step-end infinite alternate
       animation: type3 1s steps(20, end), blink 0.5s step-end infinite alternate
-      -webkit-animation-delay: 1s
       animation-delay: 1s
-      -webkit-animation-fill-mode: forwards
       animation-fill-mode: forwards
 
     &:nth-child(3)
       width: 100%
       opacity: 0
-      -webkit-animation: type3 2s steps(20, end), blink 0.5s step-end infinite alternate
       animation: type3 2s steps(20, end), blink 0.5s step-end infinite alternate
-      -webkit-animation-delay: 2s
       animation-delay: 2s
-      -webkit-animation-fill-mode: forwards
       animation-fill-mode: forwards
 
     &:nth-child(4)
       width: 100%
       opacity: 0
-      -webkit-animation: type3 2s steps(20, end), blink 0.5s step-end infinite alternate
       animation: type3 2s steps(20, end), blink 0.5s step-end infinite alternate
-      -webkit-animation-delay: 4s
       animation-delay: 4s
-      -webkit-animation-fill-mode: forwards
       animation-fill-mode: forwards
 
 @keyframes type3
   0%
     width: 0
-
   1%
     opacity: 1
-
   99.9%
     border-right: .15em solid red
-
   100%
     opacity: 1
     border: none
 
-@-webkit-keyframes type3
-  0%
-    width: 0
-
-  1%
-    opacity: 1
-
-  99.9%
-    border-right: .15em solid red
-
-  100%
-    opacity: 1
-
 @keyframes blink
   50%
     border-color: transparent
-
-@-webkit-keyframes blink
-  50%
-    border-color: tranparent
 
 .letter
   color: red
