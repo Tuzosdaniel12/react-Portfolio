@@ -1,6 +1,7 @@
 const express = require("express");
 const path = require("path");
 const PORT = process.env.PORT || 3001;
+const compression = require("compression");
 const app = express();
 
 // Define middleware here
@@ -10,9 +11,8 @@ app.use(express.json());
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
-// Define API routes here
 
-// Send every other request to the React app
+app.use(compression());
 // Define any API routes before this runs
 app.use(require("./routes"));
 
