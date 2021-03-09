@@ -20,7 +20,7 @@ const About = () => {
                 <Column columnStyles="is-two-thirds-desktop has-text-white has-text-centered-mobile is-flex is-flex-direction-column is-justify-content-center">
                     <h1 className="is-size-4 ">About Me</h1>
                     <p className="is-size-5 pb-5">
-                        Hello, my name is Daniel. I’m a graduate of the University of Washington’s Fullstack Web Development certification program, I love utilized my effective problem solving and analytical skills to create effective and user-friendly applications. In my opinion, the challenge of exploring and learning new techniques is the most rewarding aspect of web development; Please don't hesitate to reach out to me if you have any questions @ <span className="has-text-centered has-text-danger">danielsoledad@gmail.com, </span>or at any other contact methods below. I am always eager to grow in knowledge. Let's CODE!!!
+                         Hello, my name is Daniel. I’m a graduate of the University of Washington’s Fullstack Web Development certification program. I am a problem solver with the analytical skills necessary to create smooth, user-friendly applications. In my opinion, the challenge of exploring and learning new techniques is the most rewarding aspect of web development.; Please don't hesitate to reach out to me if you have any questions @ <span className="has-text-centered has-text-danger">danielsoledad@gmail.com, </span>or at any other contact methods below. I am always eager to grow in knowledge. Let's CODE!!!
                     </p>
 
                     <div className="has-text-centered has-text-danger">
