@@ -1,4 +1,4 @@
-import Burger from "../burger"
+import Burger from "../Burger"
 import { Link } from "react-router-dom";
 
 function Logo( {toggleBurgerMenu}){

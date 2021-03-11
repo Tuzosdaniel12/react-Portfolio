@@ -1,6 +1,6 @@
 
-import Card from "../../compoments/Card/index.js"
-import CenterContainer from "../../compoments/centerContainer"
+import Card from "../../compoments/Card"
+import CenterContainer from "../../compoments/CenterContainer"
 import Columns from "../../compoments/Columns"
 import Column from "../../compoments/Colunm"
 import Section from "../../compoments/Section"

@@ -1,6 +1,6 @@
-import CenterContainer from "../centerContainer"
-import Logo from "../logo"
-import NavItems from "../navItems"
+import CenterContainer from "../CenterContainer"
+import Logo from "../Logo"
+import NavItems from "../NavItems"
 
 const Nav = () =>{
     function toggleBurgerMenu() {

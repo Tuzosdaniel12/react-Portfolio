@@ -1,6 +1,6 @@
 import Columns from "../../compoments/Columns";
 import Column from "../../compoments/Colunm";
-import Icon from "../../compoments/icon/icon";
+import Icon from "../../compoments/Icon";
 import Section from "../../compoments/Section";
 import iconList from "./iconList"
 import "./style.sass"

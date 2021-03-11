@@ -1,4 +1,4 @@
-import Icon from "../icon/icon"
+import Icon from "../Icon"
 
 const FooterLinks = ({href, icon, margin,t}) =>{
     return(
