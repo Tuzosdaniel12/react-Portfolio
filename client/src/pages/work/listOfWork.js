@@ -6,6 +6,13 @@ const listOfWork = [
         description:"Js, Css, Bootstrap, Sequelize, Node.js, express, handlebars, Nodemailer, Mailgun, Passport, JWT, Axios",
         alt:"Work Out Buddies"
     },
+        {
+        link:"https://google-books-search-and-s.herokuapp.com/",
+        image:"https://github.com/Tuzosdaniel12/googleBooks/blob/main/images/page.png?raw=true",
+        gitrepo:"https://github.com/Tuzosdaniel12/googleBooks",
+        description:"MERN application that fetches data using react state and saved it to MongoDB",
+        alt:"Google Books"
+    },
     {
         link:"https://eat-la-burger-please.herokuapp.com/",
         image:"./images/burger-example.png",
@@ -17,7 +24,7 @@ const listOfWork = [
         link:"https://employee-direct-finder.herokuapp.com/",
         image:"https://github.com/Tuzosdaniel12/Emp-Directory/blob/main/images/empdirectory.png?raw=true",
         gitrepo:"https://github.com/Tuzosdaniel12/Emp-Directory",
-        description:"React",
+        description:"React application that uses state to fetch and render data",
         alt:"Employee Directory"
     },
     {
@@ -33,13 +40,6 @@ const listOfWork = [
         gitrepo:"https://github.com/Tuzosdaniel12/Weather-App",
         description:"Js, Css, Bootstrap, Open Weather Api",
         alt:"Weather App"
-    },
-    {
-        link:"https://serene-hamlet-18402.herokuapp.com/",
-        image:"./images/My-Team.png",
-        gitrepo:"https://github.com/Tuzosdaniel12/Employee-Generator",
-        description:"Js, Css, Bootstrap, Inquirer, Node.js, express, handlebars",
-        alt:"Employee Generator"
     }
 ];
 
