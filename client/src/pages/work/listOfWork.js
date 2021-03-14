@@ -8,7 +8,7 @@ const listOfWork = [
     },
         {
         link:"https://google-books-search-and-s.herokuapp.com/",
-        image:"https://github.com/Tuzosdaniel12/googleBooks/blob/main/images/page.png?raw=true",
+        image:"https://github.com/Tuzosdaniel12/googleBooks/blob/main/client/public/images/page.png?raw=true",
         gitrepo:"https://github.com/Tuzosdaniel12/googleBooks",
         description:"MERN application that fetches data using react state and saved it to MongoDB",
         alt:"Google Books"
