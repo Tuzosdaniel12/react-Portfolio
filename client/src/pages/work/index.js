@@ -15,7 +15,7 @@ const Work = () =>{
                     
                     {
                         listOfWork.map((list) =>{
-                            return<Column columnStyles="is-full-mobile is-half-tablet is-one-third-desktop mb-3 work-example-card card-has-ratio">
+                            return<Column columnStyles={`is-full-mobile is-half-tablet is-one-third-desktop mb-3 work-example-card card-has-ratio`}>
                                 <Card {...list}/>
                             </Column>
                         })
