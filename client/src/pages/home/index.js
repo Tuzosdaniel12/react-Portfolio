@@ -1,6 +1,6 @@
-import Columns from "../../compoments/Columns";
-import Column from "../../compoments/Colunm";
-import Section from "../../compoments/Section";
+import Columns from "../../components/Columns";
+import Column from "../../components/Colunm";
+import Section from "../../components/Section";
 import './style.sass'
 
 function Home() {

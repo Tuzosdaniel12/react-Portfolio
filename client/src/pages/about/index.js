@@ -1,7 +1,7 @@
-import Columns from "../../compoments/Columns";
-import Column from "../../compoments/Colunm";
-import Icon from "../../compoments/Icon";
-import Section from "../../compoments/Section";
+import Columns from "../../components/Columns";
+import Column from "../../components/Colunm";
+import Icon from "../../components/Icon";
+import Section from "../../components/Section";
 import iconList from "./iconList"
 import "./style.sass"
 

@@ -1,9 +1,9 @@
 
-import Card from "../../compoments/Card"
-import CenterContainer from "../../compoments/CenterContainer"
-import Columns from "../../compoments/Columns"
-import Column from "../../compoments/Colunm"
-import Section from "../../compoments/Section"
+import Card from "../../components/Card"
+import CenterContainer from "../../components/CenterContainer"
+import Columns from "../../components/Columns"
+import Column from "../../components/Colunm"
+import Section from "../../components/Section"
 import listOfWork from "./listOfWork"
 import "./style.sass"
 
