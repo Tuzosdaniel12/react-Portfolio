@@ -2,9 +2,9 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Footer from "./components/Footer";
 import Header from "./components/Header"; 
-import About from "./Pages/About";
-import Home from "./Pages/Home";
-import Work from "./Pages/Work";
+import About from "./pages/about";
+import Home from "./pages/home";
+import Work from "./pages/work";
 
 function App() {
   return (
