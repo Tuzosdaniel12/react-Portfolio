@@ -27,7 +27,7 @@ const About = () => {
                         working and honest individual, always eager to learn new
                         skills. Focus on using analytical and problem
                         solving skills to create user-friendly applications. Please don't hesitate to reach
-                        out to if you have any questions @{" "}
+                        out if you have any questions @{" "}
                         <span className="has-text-centered has-text-danger">
                             danielsoledad@gmail.com,{" "}
                         </span>
