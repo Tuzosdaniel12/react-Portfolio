@@ -55,18 +55,15 @@ registerRoute(
 // precache, in this case same-origin .png requests like those from in public/
 registerRoute(
 	// Add in any other file extensions or routing criteria as needed.
-	({ url }) =>
-		url.origin === self.location.origin &&
-		(url.pathname.endsWith(".png") || url.pathname.endsWith(".jpg")), // Customize this strategy as needed, e.g., by changing to CacheFirst.
+	new RegExp("/(images)/.*\\.(png|jpg)"),
+
 	new CacheFirst({
 		cacheName: "cache-all-images"
 	})
 );
 registerRoute(
-	// Add in any other file extensions or routing criteria as needed.
-	({ url }) =>
-		url.origin === self.location.origin &&
-		(url.pathname.endsWith(".docx") || url.pathname.endsWith(".pdf")), // Customize this strategy as needed, e.g., by changing to CacheFirst.
+	new RegExp("/(docs)/.*\\.(docx|pdf)"),
+	
 	new CacheFirst({
 		cacheName: "cache-all-docs"
 	})

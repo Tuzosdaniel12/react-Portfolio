@@ -14,8 +14,8 @@ const Work = () =>{
                 <Columns columnsName="is-mobile is-multiline firstblock">
                     
                     {
-                        listOfWork.map((list) =>{
-                            return<Column columnStyles={`is-full-mobile is-half-tablet is-one-third-desktop mb-3 work-example-card card-has-ratio`}>
+                        listOfWork.map((list, index) =>{
+                            return<Column key={index} columnStyles={`is-full-mobile is-half-tablet is-one-third-desktop mb-3 work-example-card card-has-ratio` }>
                                 <Card {...list}/>
                             </Column>
                         })

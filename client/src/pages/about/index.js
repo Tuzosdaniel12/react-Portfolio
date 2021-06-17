@@ -16,7 +16,7 @@ const About = () => {
 			<Columns columnsName="is-tablet about-me-div">
 				<Column columnStyles="">
 					<div className="is-flex is-justify-content-center">
-						<img className alt="Me" src="./images/me.png" />
+						<img alt="Me" src="./images/me.png" />
 					</div>
 				</Column>
 
@@ -35,8 +35,8 @@ const About = () => {
 					</p>
 
 					<div className="has-text-centered has-text-danger">
-						{iconList.map(({ icon, text }) => (
-							<Icon icon={icon} text={text} />
+						{iconList.map(({ icon, text }, index) => (
+							<Icon icon={icon} text={text} key={index}/>
 						))}
 					</div>
 				</Column>
