@@ -33,15 +33,6 @@ const listOfWork = [
 		secondRow: "second-row"
 	},
 	{
-		link: "https://whatsapp-simple-clone.herokuapp.com/ ",
-		image: "./images/whatsApp.png",
-		gitrepo: "https://github.com/Tuzosdaniel12/whats-app-clone",
-		description:
-			"WhatsApp clone, to challenge ability to match styling, and learn server-side rendering with Next.js",
-		alt: "WhatsApp",
-		secondRow: "second-row"
-	},
-	{
 		link: "https://feisbuc-clone.herokuapp.com",
 		image: "./images/face.png",
 		gitrepo: "https://github.com/Tuzosdaniel12/facebook-clone",
@@ -49,7 +40,17 @@ const listOfWork = [
 			"WhatsApp clone, to challenge ability to match styling, and learn server-side rendering with Next.js.",
 		alt: "Facebook",
 		secondRow: "second-row"
-	}
+	},
+	{
+		link: "https://whatsapp-simple-clone.herokuapp.com/",
+		image: "./images/whatsApp.png",
+		gitrepo: "https://github.com/Tuzosdaniel12/whats-app-clone",
+		description:
+			"WhatsApp clone, to challenge ability to match styling, and learn server-side rendering with Next.js",
+		alt: "WhatsApp",
+		secondRow: "second-row"
+	},
+
 ];
 
 export default listOfWork
