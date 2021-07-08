@@ -42,7 +42,7 @@ const listOfWork = [
 		secondRow: "second-row"
 	},
 	{
-		link: "feisbuc-clone.herokuapp.com/",
+		link: "https://feisbuc-clone.herokuapp.com/",
 		image: "./images/face.png",
 		gitrepo: "https://github.com/Tuzosdaniel12/facebook-clone",
 		description:
