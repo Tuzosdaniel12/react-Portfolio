@@ -16,7 +16,7 @@ function Home() {
                     <p>Hello</p>
                     <p>I'm</p>
                     <p>
-                    <span className="letter">D</span>aniel <span className="is-hidden-mobile"><span className="letter ">S</span>oledad</span>
+                    <span className="letter">D</span>aniel <span><span className="letter ">S</span>oledad</span>
                     </p>
                     <p className="is-size-5 text4">
                     Fullstack Developer
