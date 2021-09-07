@@ -1,0 +1,161 @@
+{
+  "main": {
+    "name": "Daniel Soledad",
+    "occupation": "Software Engineer",
+    "description": "I eat, sleep and breathe code",
+    "image": "me.png",
+    "bio": "Hard working and honest Fullstack Developer, always eager to learn new skills. Uses analytical and problem solving skills to create user-friendly applications. If you have any questions don't hesitate to reach out at danielsoledad@gmail.com, or at any of the other contact methods listed below. Let's CODE!!!",
+    "contactmessage": "Get in touch with me lets built something together!!",
+    "email": "danielsoledad@gmail.com",
+    "phone": "(206)280-2585",
+    "address": {
+      "city": "Seattle",
+      "state": "WA"
+    },
+    "website": "https://www.daniel-soledad.dev/",
+    "resumedownload": "docs/DanielSoledadResume.pdf",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/saajansangha",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/PapaReact",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "Cell",
+        "url": "tel:206-280-2585",
+        "className": "fa fa-phone"
+      },
+      {
+        "name": "Email",
+        "url": "mailto:danielsoledad@gmail.com",
+        "className": "fa fa-envelope"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "",
+    "education": [
+      {
+        "school": "University of Washington - Seattle, WA",
+        "degree": "Certificate, Full Stack Web Development ",
+        "graduated": "March 2021"
+      },
+      {
+        "school": "Sanford-Brown College - Tukwila, WA",
+        "degree": "Earn 76 credits, Software Engineering",
+        "graduated": "2013-2015"
+      }
+    ],
+    "work": [
+      {
+        "company": "Trilogy Education",
+        "title": "Teaching Assistant at Denver University",
+        "years": "May 2021 - Present",
+        "description": "Assist instructor by ensuring students understood programming concepts effectively. Able to work with multiple people or one on one with a positive attitude. Helped instructor keep the class on track by maintaining a tight schedule, and manage course material on GitLab."
+      },
+      {
+        "company": "Cactus",
+        "title": "Bartender",
+        "years": "July 2015 - Present",
+        "description": "Used effective communication skills, time management and personality to achieve to customers satisfaction. While communicating with 150 or more customers per week, maintained a 90% customer satisfaction rating by providing quality customer service in a high pace environment, and enabling happiness by company standards"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Spanish",
+        "level": "100%"
+      },
+      {
+        "name": "Javascript",
+        "level": "100%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "95%"
+      },
+      {
+        "name": "NextJs",
+        "level": "95%"
+      },
+      {
+        "name": "MongoDb",
+        "level": "90%"
+      },
+      {
+        "name": "MySQL",
+        "level": "90%"
+      },
+      {
+        "name": "Express.js",
+        "level": "90%"
+      },
+      {
+        "name": "Node.js",
+        "level": "95%"
+      },
+      {
+        "name": "Git",
+        "level": "70%"
+      },
+      {
+        "name": "Python",
+        "level": "50%"
+      },
+      {
+        "name": "C#",
+        "level": "50%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Dono Application Charity",
+        "category": "React, Express, Node, MongoDB, MaterialUi, Cloudinary, Socket.io, Heroku",
+        "image": "dono.png",
+        "url": "https://dono-application.herokuapp.com/",
+        "git": "https://github.com/abdulhakeemdahir/dono-application"
+      },
+      {
+        "title": "Workout Buddies",
+        "category": "MySQL - Sequelize.Js, Node.Js, Express.Js, Handlebars.Js",
+        "image": "workout-buddies.png",
+        "url": "https://workout-buddies.herokuapp.com/",
+        "git": "https://github.com/Tuzosdaniel12/Workout-Buddies"
+      },{
+        "title": "WhatsApp",
+        "category": "Next.js, Styled Components, and Firebase",
+        "image": "whatsApp.png",
+        "url": "https://whatsapp-simple-clone.herokuapp.com/",
+        "git": "https://github.com/Tuzosdaniel12/whats-app-clone"
+      },{
+        "title": "Facebook Clone",
+        "category": "Tailwind CSS, and NEXT AUTH, Firebase",
+        "image": "face.png",
+        "url": "https://feisbuc-clone.herokuapp.com/",
+        "git": "https://github.com/Tuzosdaniel12/facebook-clone"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Daniel is honestly and without any exaggeration the most talented programmer I’ve ever worked with. I had the great pleasure of working with him on our UW Capstone Project. He was the central pillar and driving force to our projects successes. He is a savant when it comes to learning and understanding complex Computer Science concepts. Out of the many features that we implemented he was responsible for more than half. He is genuinely a Full Stack Developer as he is proficient in both Front End and Back End development. Any company that hires Daniel will be getting the best programmer possible!",
+        "user": "Abdulhakeem Dahir - Full Stack Web Developer | MERN | UI/UX"
+      },
+      {
+        "text": "Daniel Soledad is a coding machine. We worked together on two out of the three projects at the University of Washington's Coding Bootcamp, including the final capstone project. Without his relentless approach and untiring work-ethic neither of our two projects would have evolved into the exemplary class-projects that we were able to share with pride when it came time for presentations. Because he has such a thorough understanding of how all of the code fits together, he is able to move effortlessly back and forth between the front-end and the back-end, catching errors, coaching people up, and lending a helping hand wherever needed. Daniel's memory is impeccable and his ability to quickly absorb the intricacies of cutting edge technologies, even with limited available documentation, is honestly inspiring. I have zero doubt that he will prove to be a huge asset to whoever hires him. Daniel the real deal.",
+        "user": "Keenan Reed - Full-Stack Web Developer"
+      },
+      {
+        "text": "Daniel is a one in a million coder. I often competitively grinded away my nights as a student of the University of Washington's Coding Bootcamp just so I could feel l was catching up with Daniel's talents and deep understanding of the code in front him, but I'm not sure I ever did. He is an inspiration and an amazing team lead. I got the pleasure of working with him on the capstone project for the boot camp and he was a wonderful asset to the team. He always made sure that he was able to help us and other students in the camp even with his full schedule. He's adept knowledge and ability to grasp concepts quick make him a standout developer any team would be happy to have.",
+        "user": "Taanileka Maama - Full Stack Developer | Web Developer @ Sporcle | TA & Tutor @ Trilogy Ed."
+      }
+    ]
+  }
+}

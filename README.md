@@ -69,7 +69,7 @@ Your updated site should still have all of the content it previously had:
 
 ## Test
 
-[![image](./client/public/images/port.png)](https://daniel-soledad.herokuapp.com/)
+[Live Link](https://daniel-soledad.herokuapp.com/)
 
 ## Credits
 

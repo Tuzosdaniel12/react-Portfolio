@@ -1,0 +1,11 @@
+.project-card{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.project-card a{
+    font-weight: bold;
+}
+.project-card span{
+    font-weight: bold;
+}
