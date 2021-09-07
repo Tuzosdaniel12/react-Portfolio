@@ -17,12 +17,12 @@
     "social": [
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/saajansangha",
+        "url": "https://www.linkedin.com/in/daniel-soledad-1834a61b3/",
         "className": "fa fa-linkedin"
       },
       {
         "name": "github",
-        "url": "https://github.com/PapaReact",
+        "url": "https://github.com/Tuzosdaniel12",
         "className": "fa fa-github"
       },
       {
@@ -117,26 +117,26 @@
       {
         "title": "Dono Application Charity",
         "category": "React, Express, Node, MongoDB, MaterialUi, Cloudinary, Socket.io, Heroku",
-        "image": "dono.png",
+        "image": "dono.jpg",
         "url": "https://dono-application.herokuapp.com/",
         "git": "https://github.com/abdulhakeemdahir/dono-application"
       },
       {
         "title": "Workout Buddies",
         "category": "MySQL - Sequelize.Js, Node.Js, Express.Js, Handlebars.Js",
-        "image": "workout-buddies.png",
+        "image": "workout-buddies.jpg",
         "url": "https://workout-buddies.herokuapp.com/",
         "git": "https://github.com/Tuzosdaniel12/Workout-Buddies"
       },{
         "title": "WhatsApp",
         "category": "Next.js, Styled Components, and Firebase",
-        "image": "whatsApp.png",
+        "image": "whatsApp.jpg",
         "url": "https://whatsapp-simple-clone.herokuapp.com/",
         "git": "https://github.com/Tuzosdaniel12/whats-app-clone"
       },{
         "title": "Facebook Clone",
         "category": "Tailwind CSS, and NEXT AUTH, Firebase",
-        "image": "face.png",
+        "image": "face.jpg",
         "url": "https://feisbuc-clone.herokuapp.com/",
         "git": "https://github.com/Tuzosdaniel12/facebook-clone"
       }
