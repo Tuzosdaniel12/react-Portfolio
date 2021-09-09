@@ -38,7 +38,7 @@
     ]
   },
   "resume": {
-    "skillmessage": "",
+    "skillmessage": "Some of my awesome skills!!",
     "education": [
       {
         "school": "University of Washington - Seattle, WA",
@@ -66,49 +66,85 @@
       }
     ],
     "skills": [
-      {
-        "name": "Spanish",
-        "level": "100%"
+      { 
+        "icon": "devicon-javascript-plain",
+        "url": "https://www.javascript.com/"
       },
       {
-        "name": "Javascript",
-        "level": "100%"
+        "icon": "devicon-python-plain",
+        "url": "https://www.python.org/"
       },
       {
-        "name": "ReactJs",
-        "level": "95%"
+        "icon": "devicon-nodejs-plain",
+        "url": "https://nodejs.org/en/"
       },
       {
-        "name": "NextJs",
-        "level": "95%"
+        "icon": "devicon-css3-plain-wordmark",
+        "url": "https://www.w3.org/Style/CSS/Overview.en.html"
       },
       {
-        "name": "MongoDb",
-        "level": "90%"
+        "icon": "devicon-react-original",
+        "url": "https://reactjs.org/"
       },
       {
-        "name": "MySQL",
-        "level": "90%"
+        "icon": "devicon-sass-original",
+        "url": "https://sass-lang.com/"
       },
       {
-        "name": "Express.js",
-        "level": "90%"
+        "icon": "devicon-express-original",
+        "url": "https://expressjs.com/"
       },
       {
-        "name": "Node.js",
-        "level": "95%"
+        "icon": "devicon-html5-plain",
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
       },
       {
-        "name": "Git",
-        "level": "70%"
+        "icon": "devicon-github-original",
+        "url": "https://github.com/"
       },
       {
-        "name": "Python",
-        "level": "50%"
+        "icon": "devicon-mongodb-plain-wordmark",
+        "url": "https://www.mongodb.com/cloud/atlas/lp/try2?utm_content=controlhterms&utm_source=google&utm_campaign=gs_americas_united_states_search_core_brand_atlas_desktop&utm_term=mongo%20db&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=12212624338&gclid=Cj0KCQjw4eaJBhDMARIsANhrQACqVSjsxYNenf0AoLzf1nuDzhPeNDoeFER73K40soWQtklOQy3Zq0IaAot8EALw_wcB"
       },
       {
-        "name": "C#",
-        "level": "50%"
+        "icon": "devicon-graphql-plain-wordmark",
+        "url": "https://graphql.org/"
+      },
+      {
+        "icon": "devicon-nextjs-original",
+        "url": "https://nextjs.org/"
+      },
+      {
+        "icon": "devicon-typescript-plain",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "icon": "devicon-mysql-plain-wordmark",
+        "url": "https://www.mysql.com/"
+      },
+      {
+        "icon": "devicon-npm-original-wordmark",
+        "url": "https://www.npmjs.com/"
+      },
+      {
+        "icon": "devicon-yarn-plain",
+        "url": "https://yarnpkg.com/"
+      },
+      {
+        "icon": "devicon-jquery-plain",
+        "url": "https://jquery.com/"
+      },
+      {
+        "icon": "devicon-firebase-plain",
+        "url": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjxo_fO0fLyAhV3C60GHUZ8C20YABACGgJwdg&ohost=www.google.com&cid=CAESQOD2qUh1iwcsqL1GtfFshOQZm3XJGHFgs6h28yo-WYRhfitYkBwYvt9x3IFwntn-vPTQSEu2VLhS6usm6z8rO3U&sig=AOD64_3RwF7QBoEQkRF59HDU77JLg40X0w&q&adurl&ved=2ahUKEwiu0e7O0fLyAhXzITQIHQmwD9MQ0Qx6BAgDEAE"
+      },
+      {
+        "icon": "devicon-bootstrap-plain",
+        "url": "https://getbootstrap.com/"
+      },
+      {
+        "icon": "devicon-handlebars-plain",
+        "url": "https://handlebarsjs.com/"
       }
     ]
   },

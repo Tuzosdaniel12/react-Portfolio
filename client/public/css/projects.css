@@ -9,3 +9,14 @@
 .project-card span{
     font-weight: bold;
 }
+
+.skills-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills-list li{
+    margin: 5px;
+}
+.skils-icons{
+    font-size:4em;
+}

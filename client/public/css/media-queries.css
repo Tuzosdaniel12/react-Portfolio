@@ -113,17 +113,17 @@
 		height: 48px;
 		text-align: left;
 		background-color: #CC5200;
-		position: relative;
+		position: absolute;
       border: none;
-      float: right;
+
 
       font: 0/0 a;
       text-shadow: none;
       color: transparent;
 
-      position: relative;
-      top: 0px;
-      right: 30px;
+      top: 20px;
+      right: 20px;
+      border-radius: 50px;
    }
 
 	#nav-wrap > a:before,
@@ -148,12 +148,10 @@
       height: auto;
 		display: none;
       clear: both;
-      width: auto; 
-      float: right;     
-
-      position: relative;
-      top: 12px;
-      right: 0;
+      width: 90%; 
+      position: absolute;
+      top: 75px;
+      right: -10px;
    }
 
    /* display menu panels */
@@ -345,7 +343,7 @@
 
    /* mobile navigation
    -------------------------------------------------------------------- */
-   #nav-wrap ul#nav { width: auto; float: none; }
+   #nav-wrap ul#nav { width: 90%; float: none; }
 
    /* header styles
    -------------------------------------------------------------------- */
