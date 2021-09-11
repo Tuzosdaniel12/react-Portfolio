@@ -96,6 +96,9 @@
 ---------------------------------------------------------------------- */
 
 @media only screen and (max-width: 767px) {
+   header {
+      background: #161415 url(../images/header-background-tablets.jpg) no-repeat top center;
+   }
 
    /* mobile navigation
    -------------------------------------------------------------------- */
@@ -341,6 +344,9 @@
 
 @media only screen and (max-width: 480px) {
 
+   header {
+      background: #161415 url(../images/header-background-mobile.jpg) no-repeat top center;
+   }
    /* mobile navigation
    -------------------------------------------------------------------- */
    #nav-wrap ul#nav { width: 90%; float: none; }
