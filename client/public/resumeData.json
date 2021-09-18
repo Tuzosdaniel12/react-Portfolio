@@ -3,11 +3,13 @@
     "name": "Daniel Soledad",
     "occupation": "Software Engineer",
     "description": "I eat, sleep and breathe code",
-    "image": "me.png",
-    "bio": "Hard working and honest Fullstack Developer, always eager to learn new skills. Uses analytical and problem solving skills to create user-friendly applications. If you have any questions don't hesitate to reach out at danielsoledad@gmail.com, or at any of the other contact methods listed below. Let's CODE!!!",
+    "image": "profile.png",
+    "bio": "I'm a Daniel Soledad, a Full Stack Engineer who is a fast learner, Graduated from intense A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, JavaScript, jQuery, Bootstrap, Node, MySQL, MongoDB, Express, Handelbars.js & React.Js. Later transitioned into a tutor and TA role to enforce those skills by tutoring students understand web development concepts. I have used my analytical skills to create user-friendly applications with various technologies like React, Next, Bootstrap, Bulma, Tailwind CSS, Style Components, SASS and traditionally CSS. Worked with various groups to create cool projects, and contribute to them by using my critical thinking skills to help plan projects , communicate ideas, evaluating problems and solving problems. Please use my contact below and built something together. LETS CODE!!!",
     "contactmessage": "Get in touch with me lets built something together!!",
     "email": "danielsoledad@gmail.com",
-    "phone": "(206)280-2585",
+    "phone": "206-280-2585",
+    "linkedin": "https://www.linkedin.com/in/daniel-soledad-1834a61b3/",
+    "github": "https://github.com/Tuzosdaniel12",
     "address": {
       "city": "Seattle",
       "state": "WA"
@@ -27,12 +29,12 @@
       },
       {
         "name": "Cell",
-        "url": "tel:206-280-2585",
+        "url": "206-280-2585",
         "className": "fa fa-phone"
       },
       {
         "name": "Email",
-        "url": "mailto:danielsoledad@gmail.com",
+        "url": "danielsoledad@gmail.com",
         "className": "fa fa-envelope"
       }
     ]
@@ -47,7 +49,7 @@
       },
       {
         "school": "Sanford-Brown College - Tukwila, WA",
-        "degree": "Earn 76 credits, Software Engineering",
+        "degree": "Software Engineering",
         "graduated": "2013-2015"
       }
     ],
@@ -56,7 +58,7 @@
         "company": "Trilogy Education",
         "title": "Teaching Assistant at Denver University",
         "years": "May 2021 - Present",
-        "description": "Assist instructor by ensuring students understood programming concepts effectively. Able to work with multiple people or one on one with a positive attitude. Helped instructor keep the class on track by maintaining a tight schedule, and manage course material on GitLab."
+        "description": "Assist instructor by ensuring a class of 20 to 40 students understood programming concepts effectively. Able to work with multiple people or one on one with a positive attitude. Helped instructor keep the class on track by maintaining a tight schedule. Manage course material on GitLab. Help students gaining technical programming skills in HTML5, CSS3, JavaScript, jQuery, Bootstrap, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS. Used google sheet, google calendar, and calendly to keep student roster and tutoring sessions organized."
       },
       {
         "company": "Cactus",
