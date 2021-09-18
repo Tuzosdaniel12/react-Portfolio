@@ -58,6 +58,7 @@ if (data) {
 								<span>
 									<a href={`mailto:${email}`}>{email}</a>
 								</span>
+								<br />
 								{networks}
 							</p>
 						</div>
