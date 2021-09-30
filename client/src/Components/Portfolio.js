@@ -1,5 +1,11 @@
 import React from "react";
-
+const overLay = {
+	background: "url(../images/overlay-bg.png) repeat"
+};
+const cardDescription = {
+	padding: "5px",
+	height: "193px"
+}
 const Portfolio = ({ data }) => {
   if (data) {
     var projects = data.projects.map(function (projects) {
@@ -9,7 +15,7 @@ const Portfolio = ({ data }) => {
 				<div className="item-wrap">
 					<a href={projects.url} title={projects.title}>
 						<img alt={projects.title} src={projectImage} />
-						<div className="overlay">
+						<div className="overlay" style={{...overLay}} >
 							<div className="portfolio-item-meta">
 								<h5>{projects.title}</h5>
 								<p>{projects.category}</p>
@@ -17,14 +23,18 @@ const Portfolio = ({ data }) => {
 						</div>
 					</a>
 				</div>
+				<div className="card-description">
+					{projects.description}
+				</div>
 				<div className="project-card">
 					<a href={projects.git} title={projects.title}>
 						Git Repo
 					</a>
-          <span>|</span>
+          			<span>|</span>
 					<a href={projects.url} title={projects.title}>
 						Live Demo
 					</a>
+					
 				</div>
 			</div>
 		);

@@ -3,9 +3,9 @@ import React from "react";
 const Resume = ({ data }) => {
   if (data) {
     var skillmessage = data.skillmessage;
-    var education = data.education.map(function (education) {
+    var education = data.education.map(function (education, index) {
       return (
-        <div key={education.school}>
+        <div key={index}>
           <h3>{education.school}</h3>
           <p className="info">
             {education.degree} <span>&bull;</span>
@@ -15,9 +15,9 @@ const Resume = ({ data }) => {
         </div>
       );
     });
-    var work = data.work.map(function (work) {
+    var work = data.work.map(function (work, index) {
       return (
-			<div key={work.title}>
+			<div key={index}>
 				<h3>{work.title}</h3>
 				<p className="info">
 					{work.title}
@@ -27,11 +27,11 @@ const Resume = ({ data }) => {
 			</div>
 		);
     });
-    var skills = data.skills.map(function (skills) {
+    var skills = data.skills.map(function (skills, index) {
       //var className = "bar-expand " + skills.name.toLowerCase();
       return (
-			<li key={skills.name}>
-				<a href={skills.url}>
+			<li key={index}>
+				<a key={index}  href={skills.url}>
 					<i className={`skils-icons ${skills.icon}`}></i>
 				</a>
 			</li>

@@ -17,5 +17,5 @@ app.use(compression());
 app.use(require("./routes"));
 
 app.listen(PORT, () => {
-  console.log(`🌎 ==> API server now on port ${PORT}!`);
+  console.log(`🌎 ==> API server now on port http://localhost:${PORT-1} !`);
 });

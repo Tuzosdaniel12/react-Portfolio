@@ -154,29 +154,34 @@
     "projects": [
       {
         "title": "Dono Application Charity",
+        "description":"This MERN application allows user to donate directly to any non-profit.",
         "category": "React, Express, Node, MongoDB, MaterialUi, Cloudinary, Socket.io, Heroku",
         "image": "dono.jpg",
         "url": "https://dono-application.herokuapp.com/",
         "git": "https://github.com/abdulhakeemdahir/dono-application"
+
       },
       {
         "title": "Workout Buddies",
+        "description":"A MySQL, Express, React, Node application that allows the user share workouts amongst fellow users of the application",
         "category": "MySQL - Sequelize.Js, Node.Js, Express.Js, Handlebars.Js",
         "image": "workout-buddies.jpg",
         "url": "https://workout-buddies.herokuapp.com/",
         "git": "https://github.com/Tuzosdaniel12/Workout-Buddies"
       },{
         "title": "WhatsApp",
+        "description":"This WhapsApp clone app is to test the ability of matching WhatsApp desktop app styling and functionality",
         "category": "Next.js, Styled Components, and Firebase",
         "image": "whatsApp.jpg",
         "url": "https://whatsapp-simple-clone.herokuapp.com/",
         "git": "https://github.com/Tuzosdaniel12/whats-app-clone"
       },{
-        "title": "Facebook Clone",
-        "category": "Tailwind CSS, and NEXT AUTH, Firebase",
-        "image": "face.jpg",
-        "url": "https://feisbuc-clone.herokuapp.com/",
-        "git": "https://github.com/Tuzosdaniel12/facebook-clone"
+        "title": "Classroom",
+        "description":"Classroom is a management utility helping instructional staff better support students in an online learning environment.",
+        "category": "React, Bulma, Node.js, Mongo",
+        "image": "Classroom-Student-Management.png",
+        "url": "https://cr-sm.herokuapp.com/",
+        "git": "https://github.com/ac524/instructor-utilities"
       }
     ]
   },

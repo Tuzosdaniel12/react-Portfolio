@@ -6,6 +6,11 @@ import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
+import "./css/default.css"
+import "./css/layout.css";
+import "./css/media-queries.css"
+import "./css/magnific-popup.css";
+import "./css/projects.css";
 
 const App = () => {
   const [resumeData, setResumeData] = useState({});
