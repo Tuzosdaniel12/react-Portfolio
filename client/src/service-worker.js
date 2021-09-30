@@ -15,7 +15,7 @@
 import { clientsClaim } from "workbox-core";
 import { precacheAndRoute, createHandlerBoundToURL } from "workbox-precaching";
 import { registerRoute } from "workbox-routing";
-import { CacheFirst } from "workbox-strategies";
+import { CacheFirst, StaleWhileRevalidate} from "workbox-strategies";
 
 clientsClaim();
 
@@ -56,14 +56,14 @@ registerRoute(
 	// Add in any other file extensions or routing criteria as needed.
 	new RegExp("/(images)/.*\\.(png|jpg)"),
 
-	new CacheFirst({
+	new StaleWhileRevalidate({
 		cacheName: "cache-all-images"
 	})
 );
 registerRoute(
 	new RegExp("/(docs)/.*\\.(docx|pdf)"),
 
-	new CacheFirst({
+	new StaleWhileRevalidate({
 		cacheName: "cache-all-docs"
 	})
 );
