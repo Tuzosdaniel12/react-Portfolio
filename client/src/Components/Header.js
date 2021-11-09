@@ -23,8 +23,8 @@ const Header = ({ data }) => {
 			style={{
 				background:
 					"#161415 url(../images/header-background.jpg) no-repeat top center",
-				backgroundSize: "cover" ,
-        height: "800px"
+				backgroundSize: "cover",
+				height: "800px"
 			}}>
 			<nav id="nav-wrap">
 				<a
@@ -45,6 +45,11 @@ const Header = ({ data }) => {
 						</a>
 					</li>
 					<li>
+						<a className="smoothscroll" href="#portfolio">
+							Works
+						</a>
+					</li>
+					<li>
 						<a className="smoothscroll" href="#about">
 							About
 						</a>
@@ -54,11 +59,7 @@ const Header = ({ data }) => {
 							Resume
 						</a>
 					</li>
-					<li>
-						<a className="smoothscroll" href="#portfolio">
-							Works
-						</a>
-					</li>
+
 					<li>
 						<a className="smoothscroll" href="#contact">
 							Contact
